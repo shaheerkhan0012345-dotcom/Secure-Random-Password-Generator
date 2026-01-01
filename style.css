@@ -1,87 +1,73 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif 
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background: #001e4d;
-}
-
-.app{
-
-    background: #fff ;
-    width: 90%;
-    max-width: 600px ;
-    margin: 100px auto 0;
-    border-radius: 10px;
-    padding: 30px;
-}
-
-.app h1{
-   font-size: 25px;
-   color: #001e4d;
-   font-weight: 600 ;
-   border-bottom: 1px solid #333;
-   padding-bottom: 30px ;
-}
-
-.quiz{
-    padding: 20px 0;
-}
-
-.quiz h2{
-
-    font-size: 18px ;
-    color: #001e4d;
-    font-weight: 600;
-}
-
-.btn{
-    background: #fff;
-    color: #222 ;
-    font-weight: 500 ;
-    width: 100%;
-    border: 1px solid #222;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: left;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.btn:hover:not([disabled]){
-        background: #222;
-        color: #fff;
-}
-
-.btn:disabled{
-    cursor: no-drop;
-}
-
-#next-btn{
-    background: #001e4d;
+    background: #020617;
     color: #fff;
+}
+
+.container{
+    margin: 10%;
+    width: 85%;
+    max-width: 700px;
+}
+
+.display{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 10px;
+    border-radius: 5px;
+}
+
+.container h1{
     font-weight: 500;
-    width: 150px;
-    border: 0;
-    padding: 10px;
-    margin: 20px auto 0;
-    border-radius: 4px;
+    font-size: 45px;
+}
+
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.display img{
+    width: 30px;
     cursor: pointer;
-    display: none;
-    
 }
 
-.Correct{
-    background: #9aeabc;
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
 }
 
-.Incorrect{
-    background: #ff9393;
+.container img{
+    width: 28px;
+    margin-right: 10px;
+
 }
 
+.container button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 
-
+}
